@@ -18,7 +18,7 @@ interface Project {
 
 // API fetch function
 async function fetchProjects(): Promise<Project[]> {
-  const res = await fetch("http://localhost:5555/api/projects");
+  const res = await fetch("https://open-source-hub.onrender.com/api/projects");
   const data = await res.json();
   return data;
 }
