@@ -6,6 +6,10 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, Star, GitFork, Bug, ArrowRight } from "lucide-react";
 
+
+
+
+
 // Define the structure of the project data
 interface Project {
   name: string;
@@ -18,7 +22,7 @@ interface Project {
 
 // API fetch function
 async function fetchProjects(): Promise<Project[]> {
-  const res = await fetch("https://open-source-hub.onrender.com/api/projects");
+  const res = await fetch('https://open-source-hub.onrender.com/api/projects');
   const data = await res.json();
   return data;
 }
