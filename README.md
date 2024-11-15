@@ -42,7 +42,7 @@ Ensure you have the following installed:
   
 ### Installation
 
-1.  Clone the repository: git clone https://github.com/your-username/open-source-hub.git
+1.  Clone the repository: git clone [https://github.com/your-username/open-source-hub.git](https://github.com/DaV1005/open-source-hub.git)
    
 2.  Install dependencies: `npm install`
 
