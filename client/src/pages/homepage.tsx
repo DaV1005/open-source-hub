@@ -113,8 +113,7 @@ export default function Homepage() {
                         <Button
                           variant="outline"
                           className="w-full"
-                          as="a"
-                          target="_blank"
+                      
                           rel="noopener noreferrer"
                         >
                           Contribute
